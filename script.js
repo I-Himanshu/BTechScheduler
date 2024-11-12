@@ -163,7 +163,130 @@ const subjects = {
             "description": "Lipids are a diverse group of biomolecules that are primarily composed of carbon, hydrogen, and oxygen, with some containing nitrogen and phosphorus. They are hydrophobic and serve many essential functions, including energy storage, cell membrane formation, and signaling. Fatty acids, which are long chains of carbon atoms, are the building blocks of many lipids. Lipids can be classified into various types, including fats (triglycerides), phospholipids, and steroids. Phospholipids are crucial for forming the lipid bilayer of cell membranes, while steroids, like cholesterol, are important for regulating membrane fluidity and acting as precursors for hormones."
           }
         ]
-      }                        
+      },
+      {
+        "title": "Module 5: Enzymes",
+        "description": "This module emphasizes the critical role of enzymes in catalyzing biochemical reactions, without which life would not exist. Enzymes accelerate biochemical reactions, making them vital for metabolic processes. The module will cover the various aspects of enzymology, including enzyme classification, reaction mechanisms, kinetics, and RNA catalysis.",
+        "outcome": "By the end of this module, students will understand how enzymes function as biological catalysts, the mechanisms behind enzyme catalysis, the importance of enzyme kinetics, and the role of RNA in catalysis.",
+        "subtopics": [
+          {
+            "title": "Why are Enzymes Important?",
+            "description": "Enzymes are essential for life because they catalyze biochemical reactions that would otherwise occur too slowly to sustain life. Without enzymes, vital processes such as metabolism, digestion, and DNA replication would not occur at a rate fast enough to support life."
+          },
+          {
+            "title": "How Do Enzymes Catalyze Reactions?",
+            "description": "Enzymes lower the activation energy of a reaction, allowing it to proceed more efficiently. They do this by stabilizing the transition state of the reaction. Enzymes typically bind to specific substrates and convert them into products. The enzyme's active site plays a crucial role in this process."
+          },
+          {
+            "title": "Enzyme Classification",
+            "description": "Enzymes are classified into six major classes based on the type of reaction they catalyze: oxidoreductases, transferases, hydrolases, lyases, isomerases, and ligases. Each class is further divided into subclasses based on the specific type of reaction."
+          },
+          {
+            "title": "Mechanism of Enzyme Action",
+            "description": "Enzymes can catalyze reactions through several mechanisms, including proximity and orientation effects, acid-base catalysis, covalent catalysis, and metal ion cofactors. Two examples: (1) The role of the enzyme hexokinase in glycolysis and (2) The enzyme carbonic anhydrase catalyzing the interconversion of CO2 and H2O."
+          },
+          {
+            "title": "Enzyme Kinetics and Kinetic Parameters",
+            "description": "Enzyme kinetics involves studying the rate of enzyme-catalyzed reactions and understanding the factors that influence these rates. Key parameters include Km (Michaelis constant), Vmax (maximum velocity), and the Michaelis-Menten equation. Understanding these parameters is crucial for optimizing enzymatic processes in medicine and industry."
+          },
+          {
+            "title": "RNA Catalysis",
+            "description": "RNA molecules, known as ribozymes, can also catalyze chemical reactions. The discovery of RNA catalysis expanded our understanding of biocatalysis beyond proteins, indicating that RNA might have played a central role in the origin of life."
+          }
+        ]
+      },
+      {
+        "title": "Module 6: Information Transfer",
+        "description": "This module focuses on the molecular basis of information transfer, particularly in genetics. It explores the structure and function of DNA, the concept of the genetic code, and the processes of genetic information transfer and recombination.",
+        "outcome": "By the end of this module, students will understand how genetic information is encoded, decoded, and transferred in biological systems, and how the genetic code drives the synthesis of proteins.",
+        "subtopics": [
+          {
+            "title": "What is the Molecular Basis of Information Transfer?",
+            "description": "The molecular basis of information transfer is the process through which genetic information is passed from one generation to the next. DNA serves as the blueprint for cellular function and organismal development, and this process involves transcription, translation, and replication."
+          },
+          {
+            "title": "DNA as Genetic Material",
+            "description": "DNA, or deoxyribonucleic acid, is the hereditary material in all living organisms. It carries genetic information in the form of sequences of nucleotides (adenine, thymine, cytosine, and guanine) that code for proteins."
+          },
+          {
+            "title": "Hierarchy of DNA Structure",
+            "description": "DNA structure exists in multiple levels of organization: from a single strand of nucleotides to the double helix, then to nucleosomes, and finally chromatin. Each level of structure is critical for the packaging and function of DNA within cells."
+          },
+          {
+            "title": "The Genetic Code",
+            "description": "The genetic code is the set of rules by which information encoded in DNA is translated into proteins. The code is universal, with 64 codons specifying 20 amino acids, making it a cornerstone of molecular biology. The genetic code is also degenerate, meaning multiple codons can code for the same amino acid."
+          },
+          {
+            "title": "Gene Definition: Complementation and Recombination",
+            "description": "A gene is a sequence of DNA that encodes a functional product, usually a protein. Complementation refers to the phenomenon where two different mutations in a gene can restore normal function when present together. Recombination involves the exchange of genetic material between chromosomes, contributing to genetic diversity."
+          }
+        ]
+      },
+      {
+        "title": "Module 7: Macromolecular Analysis",
+        "description": "This module focuses on how biological processes can be analyzed at a reductionist level, examining the structure and function of proteins. It emphasizes understanding protein structure and how it relates to its biological function.",
+        "outcome": "Students will learn how to analyze the structure of proteins at different levels and how these structures determine protein function. The hierarchical organization of protein structure and its relation to biological activities will be explored.",
+        "subtopics": [
+          {
+            "title": "Proteins as Biomolecules",
+            "description": "Proteins are complex molecules made of amino acids. They are responsible for carrying out a wide range of biological functions, from catalyzing biochemical reactions (enzymes) to serving as structural components of cells and tissues (collagen)."
+          },
+          {
+            "title": "Hierarchy of Protein Structure",
+            "description": "Proteins have four levels of structure: primary (amino acid sequence), secondary (alpha-helices and beta-sheets), tertiary (three-dimensional folding), and quaternary (multiple polypeptides interacting). Each level of structure plays a role in the protein's function."
+          },
+          {
+            "title": "Proteins as Enzymes, Transporters, Receptors, and Structural Elements",
+            "description": "Proteins serve multiple functions in living organisms. Some act as enzymes that catalyze reactions, others as transporters (e.g., hemoglobin), as receptors for signaling molecules (e.g., neurotransmitters), or as structural components (e.g., actin and tubulin)."
+          }
+        ]
+      },
+      {
+        "title": "Module 8: Metabolism",
+        "description": "This module focuses on the principles of energy transactions in biological systems and explores how thermodynamics applies to biochemical processes. It examines energy-yielding and energy-consuming reactions, including glycolysis, the Krebs cycle, and photosynthesis.",
+        "outcome": "Students will learn the fundamental principles of metabolism, including the thermodynamic laws that govern biological reactions. The processes of energy production and consumption in cells, including ATP generation, will be explored in detail.",
+        "subtopics": [
+          {
+            "title": "Thermodynamics in Biological Systems",
+            "description": "Thermodynamics governs the flow of energy in biological systems. This subtopic introduces exothermic, endothermic, and exergonic reactions, and the concept of Gibbs free energy, which determines the spontaneity of reactions."
+          },
+          {
+            "title": "ATP as an Energy Currency",
+            "description": "ATP (adenosine triphosphate) is the primary energy currency in cells. It stores and transfers energy within cells, enabling various biochemical processes such as muscle contraction, protein synthesis, and active transport."
+          },
+          {
+            "title": "Glycolysis and Krebs Cycle",
+            "description": "Glycolysis and the Krebs cycle are key metabolic pathways involved in energy production. Glycolysis breaks down glucose into pyruvate, producing ATP and NADH, while the Krebs cycle generates high-energy electrons used in oxidative phosphorylation."
+          },
+          {
+            "title": "Photosynthesis: Energy Conversion in Plants",
+            "description": "Photosynthesis is the process by which plants convert light energy into chemical energy, producing glucose from CO2 and H2O. This process is vital for life on Earth, as it serves as the basis for energy flow in ecosystems."
+          }
+        ]
+      },
+      {
+        "title": "Module 9: Microbiology",
+        "description": "This module introduces the concept of single-celled organisms, including bacteria and other microorganisms. It covers their identification, classification, growth kinetics, and ecological roles.",
+        "outcome": "By the end of this module, students will understand the diversity of microorganisms, their role in ecosystems, and how to analyze and classify them. They will also learn the methods for studying microorganisms in the laboratory.",
+        "subtopics": [
+          {
+            "title": "Single-Celled Organisms",
+            "description": "Single-celled organisms, such as bacteria, archaea, and protists, perform all the necessary functions of life within a single cell. Despite their simplicity, they exhibit incredible diversity and are critical to ecosystems."
+          },
+          {
+            "title": "Identification and Classification of Microorganisms",
+            "description": "Microorganisms are identified and classified based on their morphology, biochemical characteristics, and genetic makeup. Techniques like Gram staining, PCR, and sequencing are used to identify and categorize different species and strains."
+          },
+          {
+            "title": "Microscopy and Sterilization Techniques",
+            "description": "Microscopy is used to visualize microorganisms, and different types of microscopes (light, electron) are employed depending on the organism. Sterilization techniques are crucial for controlling microbial contamination in laboratories and clinical settings."
+          },
+          {
+            "title": "Growth Kinetics and Ecological Aspects",
+            "description": "The growth of microorganisms follows specific patterns, including lag, log, stationary, and death phases. Ecologically, microorganisms play vital roles in nutrient cycling, symbiosis, and as pathogens."
+          }
+        ]
+      }                       
     ]
   },
   SSIC: {
