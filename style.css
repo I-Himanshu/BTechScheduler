@@ -1,0 +1,136 @@
+/* Basic Styling */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f5f7fa;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #3b5998;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+/* Table Styles */
+table {
+  width: 95%;
+  margin: 0 auto 30px;
+  border-collapse: collapse;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+th, td {
+  padding: 15px;
+  border: 1px solid #e0e4e8;
+  text-align: center;
+  font-size: 0.9em;
+  position: relative;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+th {
+  background-color: #3b5998;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1em;
+}
+
+td {
+  color: #555;
+}
+
+td:hover {
+  background-color: #edf4fa;
+}
+
+/* Highlight Current Day */
+.today {
+  background-color: #ffecb3 !important;
+  font-weight: bold;
+}
+
+/* Recess Style */
+.recess {
+  background-color: #f0f0f0;
+  color: #999;
+  font-weight: bold;
+  cursor: default;
+}
+
+/* Tooltip Styling */
+.tooltip {
+  display: none;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 4px;
+  font-size: 0.85em;
+  white-space: nowrap;
+  z-index: 1000;
+  pointer-events: none;
+  transition: opacity 0.3s;
+}
+
+td:hover .tooltip {
+  display: block;
+  opacity: 1;
+}
+
+/* Modal Styling */
+.modal {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  max-width: 600px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  z-index: 1100;
+  padding: 20px;
+}
+
+.modal-content {
+  padding: 10px 20px;
+}
+
+.modal-close {
+  float: right;
+  font-size: 1.5em;
+  color: #555;
+  cursor: pointer;
+}
+
+.modal-close:hover {
+  color: #000;
+}
+
+.modal h2 {
+  color: #3b5998;
+  margin-bottom: 10px;
+}
+
+.modal p {
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  th, td {
+    padding: 10px;
+    font-size: 0.8em;
+  }
+
+  h1 {
+    font-size: 1.8em;
+  }
+}

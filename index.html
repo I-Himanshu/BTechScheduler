@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Class Routine</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>BTech CSE 7th Sem - Class Routine</h1>
+  <div class="routine">
+    <table id="routineTable">
+      <thead>
+        <tr>
+          <th>Days</th>
+          <th>1st Period <br> 10:00-11:00</th>
+          <th>2nd Period <br> 11:00-12:00</th>
+          <th>3rd Period <br> 12:00-1:00</th>
+          <th>RECESS <br> 1:00-1:50</th>
+          <th>4th Period <br> 1:50-2:50</th>
+          <th>5th Period <br> 2:50-3:50</th>
+          <th>6th Period <br> 3:50-4:50</th>
+        </tr>
+      </thead>
+      <tbody id="routineBody">
+        <!-- JavaScript will populate this section -->
+      </tbody>
+    </table>
+    <div id="tooltip" class="tooltip"></div>
+  </div>
+
+  <!-- Modal Structure -->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span id="modalClose" class="modal-close">&times;</span>
+      <h2 id="modalTitle">Subject Title</h2>
+      <p id="modalDescription">Subject Description</p>
+      <div id="modalSyllabus">
+        <h3>Syllabus:</h3>
+        <ul>
+          <!-- JavaScript will populate syllabus here -->
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
